@@ -16,7 +16,7 @@ for i in range(len1):
     number = i+start
     significant_digit = floor(number / (10**floor(log10(number))))
     repitition_matrix[i,(significant_digit-1)] = repitition_matrix[i,(significant_digit-1)] + 1
-    print(significant_digit)
+    #print(significant_digit)
 #calulate cumulative repitition
 for i in range(len1):
     for j in range(9):
@@ -52,6 +52,7 @@ for i in range(10):
     x1= int(end*0.7)
     y1= int( np.max(probability_matrix) * 0.9) - i* 3
     plot.text(x1,y1,str1, fontsize = 15)
+plot.grid()
 plot.show()
 
 
