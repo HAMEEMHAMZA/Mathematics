@@ -1,3 +1,5 @@
+#code written by Hameem C Hamza
+#Date 20 August 2020
 import numpy as np
 import matplotlib.pyplot as plot 
 from math import log10, floor 
